@@ -1,0 +1,24 @@
+{
+  "questions": [
+    { "id": 1, "type": "single", "text": "以下哪个是HTML5新增的语义化标签？", "options": ["div", "span", "article", "p"], "answer": "C", "points": 5 },
+    { "id": 2, "type": "single", "text": "CSS中用于设置文本颜色的属性是？", "options": ["text-color", "color", "font-color", "bgcolor"], "answer": "B", "points": 5 },
+    { "id": 3, "type": "single", "text": "JavaScript中，以下哪个关键字用于声明变量？", "options": ["var", "let", "const", "以上都是"], "answer": "D", "points": 5 },
+    { "id": 4, "type": "single", "text": "以下哪个是Node.js的默认包管理器？", "options": ["pip", "gem", "npm", "composer"], "answer": "C", "points": 5 },
+    { "id": 5, "type": "single", "text": "HTTP状态码404表示什么？", "options": ["服务器错误", "页面未找到", "请求成功", "禁止访问"], "answer": "B", "points": 5 },
+    { "id": 6, "type": "single", "text": "下列哪个是关系型数据库？", "options": ["MongoDB", "Redis", "MySQL", "Elasticsearch"], "answer": "C", "points": 5 },
+    { "id": 7, "type": "single", "text": "在React中，用于管理组件状态的是？", "options": ["props", "state", "data", "model"], "answer": "B", "points": 5 },
+    { "id": 8, "type": "single", "text": "下列哪个命令用于克隆Git仓库？", "options": ["git push", "git pull", "git clone", "git fork"], "answer": "C", "points": 5 },
+    { "id": 9, "type": "single", "text": "CSS Flexbox布局中，使项目水平居中对齐的属性值是？", "options": ["center", "middle", "flex-center", "align-center"], "answer": "A", "points": 5 },
+    { "id": 10, "type": "single", "text": "JavaScript中，以下哪个是数组方法？", "options": ["map()", "get()", "set()", "run()"], "answer": "A", "points": 5 },
+    { "id": 11, "type": "multi", "text": "以下哪些属于前端开发技术？", "options": ["HTML", "CSS", "JavaScript", "Python"], "answer": ["A", "B", "C"], "points": 5 },
+    { "id": 12, "type": "multi", "text": "以下哪些是JavaScript框架/库？", "options": ["React", "Vue", "Django", "Angular"], "answer": ["A", "B", "D"], "points": 5 },
+    { "id": 13, "type": "multi", "text": "以下哪些是版本控制系统？", "options": ["Git", "SVN", "Mercurial", "Docker"], "answer": ["A", "B", "C"], "points": 5 },
+    { "id": 14, "type": "multi", "text": "以下哪些是CSS预处理器？", "options": ["Sass", "Less", "Stylus", "Webpack"], "answer": ["A", "B", "C"], "points": 5 },
+    { "id": 15, "type": "multi", "text": "以下哪些是HTTP请求方法？", "options": ["GET", "POST", "PUT", "DELETE"], "answer": ["A", "B", "C", "D"], "points": 5 },
+    { "id": 16, "type": "judge", "text": "JavaScript是一种编译型语言。", "options": ["正确", "错误"], "answer": "F", "points": 5 },
+    { "id": 17, "type": "judge", "text": "HTML标签必须成对出现（有开始和结束）。", "options": ["正确", "错误"], "answer": "F", "points": 5 },
+    { "id": 18, "type": "judge", "text": "CSS Grid布局比Flexbox更适合二维布局。", "options": ["正确", "错误"], "answer": "T", "points": 5 },
+    { "id": 19, "type": "judge", "text": "Node.js可以在浏览器中运行JavaScript代码。", "options": ["正确", "错误"], "answer": "F", "points": 5 },
+    { "id": 20, "type": "judge", "text": "RESTful API中，DELETE方法用于删除资源。", "options": ["正确", "错误"], "answer": "T", "points": 5 }
+  ]
+}

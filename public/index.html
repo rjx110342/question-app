@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线调查问卷 - 登录</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 登录区域 -->
+        <div id="login-section" class="login-section">
+            <div class="login-card">
+                <h2>📝 问卷系统登录</h2>
+                <p>请使用您的姓名和工号登录</p>
+                <form id="login-form">
+                    <div class="input-group">
+                        <label>姓名：</label>
+                        <input type="text" id="login-name" placeholder="例如：张三" required>
+                    </div>
+                    <div class="input-group">
+                        <label>工号：</label>
+                        <input type="text" id="login-employee-id" placeholder="例如：10001" required>
+                    </div>
+                    <button type="submit" class="login-btn">进入问卷</button>
+                </form>
+                <div id="login-error" class="error-message" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- 问卷区域 (初始隐藏) -->
+        <div id="questionnaire-section" style="display:none;">
+            <header>
+                <h1>📋 技术知识调查问卷</h1>
+                <p>共20题 | 单选题10题 | 多选题5题 | 判断题5题 | 总分100分</p>
+                <div class="user-info">
+                    欢迎，<span id="user-name-display"></span> (工号: <span id="user-id-display"></span>)
+                    <button id="logout-btn" class="logout-btn">退出登录</button>
+                </div>
+                <div id="attempt-info" class="attempt-info"></div>
+            </header>
+
+            <form id="questionnaire-form">
+                <div id="questions-container" class="questions-container">
+                    <div class="loading">加载题目中...</div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn">✓ 提交问卷</button>
+                    <button type="button" id="reset-btn" class="reset-btn">↺ 重置所有答案</button>
+                </div>
+            </form>
+
+            <!-- 结果展示区域 -->
+            <div id="result-container" class="result-container" style="display: none;">
+                <div class="result-header">
+                    <h2>📊 评分结果</h2>
+                    <div class="score-card">
+                        <span class="score-label">您的得分：</span>
+                        <span class="score-value" id="score-value">0</span>
+                        <span class="score-total">/ 100</span>
+                    </div>
+                    <div id="submit-count-info" class="submit-count-info"></div>
+                    <button id="back-to-form" class="back-btn">✏️ 重新答题</button>
+                </div>
+                <div id="result-details" class="result-details"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

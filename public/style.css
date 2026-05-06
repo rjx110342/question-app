@@ -1,0 +1,114 @@
+/* 登录界面样式 */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-message {
+  background: #eef2ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.6;
+}
+.info-message p {
+  margin: 10px 0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.login-btn:hover {
+    opacity: 0.9;
+}
+
+.error-message {
+    color: #e53e3e;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.user-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f7fafc;
+    border-radius: 12px;
+}
+
+.logout-btn {
+    background: #e53e3e;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.attempt-info {
+    background: #edf2f7;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #2d3748;
+}
+
+.submit-count-info {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
